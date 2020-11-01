@@ -6,7 +6,7 @@ from datetime import date, timedelta
 
 # This script cleans the fetched tweets from the previous task "fetching_tweets"
 
-LOCAL_DIR='/tmp/'
+LOCAL_DIR='~/usman_umar/lib/python/airflow/processed/'
 
 def main():
 	# Read the csv produced by the "fetching_tweets" task

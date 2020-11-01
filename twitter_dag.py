@@ -5,6 +5,7 @@ from airflow.operators.bash_operator import BashOperator
 from airflow.contrib.sensors.file_sensor import FileSensor
 from datetime import datetime
 import fetching_tweet
+import cleaning_tweet
 
 # default_args are the default arguments applied to the Dag's tasks
 DAG_DEFAULT_ARGS = {
