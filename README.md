@@ -12,14 +12,14 @@
   
   test python operator for fetching tweet
   
-  # airflow test twitter_dag fetching_tweet_task 2020-10-01
+  ## airflow test twitter_dag fetching_tweet_task 2020-10-01
   
   
   test python operator for cleaning
   
-  # airflow test twitter_dag cleaning_tweets 2020-10-01
+  ## airflow test twitter_dag cleaning_tweets 2020-10-01
   
- ## Before Running Bash and Hive Operator:
+ # Before Running Bash and Hive Operator:
   
-  # Run hive_table_tweets.hql file in Hive to register your schema and create table if not exists 
+  ## Run hive_table_tweets.hql file in Hive to register your schema and create table if not exists 
 
